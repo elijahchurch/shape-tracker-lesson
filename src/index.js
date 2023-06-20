@@ -1,3 +1,6 @@
+import Triangle from './triangle.js';
+import './css/styles.css';
+
 function handleTriangleForm() {
     event.preventDefault();
     document.querySelector('#response').innerText = null;
